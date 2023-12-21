@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./../image/bg-new-bns.87803f61 (1).jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .All {
+        form {
+            margin-left: 500px;
+            border: 1px solid black;
+            width: 600px;
+            min-height: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+
+            .upper {
+                // background-color: red;
+                width: 100%;
+                text-align: center;
+
+                input {
+                    height: 30px;
+                    width: 200px;
+                }
+
+                button {
+                    background-color: black;
+                    color: white;
+                    margin-left: 20px;
+                    width: 60px;
+                    height: 40px;
+                    padding: 0;
+                }
+            }
+
+            .down {
+                height: 100%;
+                width: 460px;
+                text-align: center;
+                position: relative;
+                color: black;
+                font-size: 18px;
+                top: 30px;
+                border: 1px solid black;
+                button {
+                    width: 40px;
+                    height: 40px;
+                    text-align: center;
+                    vertical-align: middle;
+                    align-items: center;
+
+                    padding: 0;
+                    background: none;
+                    border: none;
+                    background-color: black;
+                    color: white;
+                }
+
+                .button {
+                    width: 100px;
+                    height: auto;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                button:hover {
+                    background-color: white;
+                    color: black;
+                }
+                table {
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+
+                table td,
+                table th {
+                    border: 1px solid black;
+                    padding: 8px;
+                }
+
+                table th {
+                    background-color: #f2f2f2;
+                }
+            }
+        }
+    }
+}
